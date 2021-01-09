@@ -5,15 +5,12 @@
     <zone name="main">
         <card number="2" name="Sai, Master Thopterist"/>
         <card number="2" name="Tempered Steel"/>
-        <card number="4" name="Intangible Virtue"/>
-        <card number="1" name="Mentor of the Meek"/>
         <card number="7" name="Island"/>
         <card number="7" name="Plains"/>
         <card number="2" name="Loxodon Warhammer"/>
         <card number="2" name="Mace of the Valiant"/>
         <card number="4" name="Dispatch"/>
         <card number="1" name="Salvage Titan"/>
-        <card number="3" name="Sword of the Meek"/>
         <card number="1" name="Inventors' Fair"/>
     </zone>
 </cockatrice_deck>

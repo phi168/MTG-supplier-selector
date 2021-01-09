@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 import pickle
 import pytest
-from mtgcss.optimisation import GeneticAlgorithm as ga
-import mtgcss.tools as t
+from mtgss.optimisation import GeneticAlgorithm as ga
+import mtgss.tools as t
 import numpy as np
 from numpy.random import seed as npseed
 from random import seed as rdseed

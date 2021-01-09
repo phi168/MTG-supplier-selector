@@ -34,6 +34,6 @@ python mtgss.py path_to_cardlist output.csv
     
 Or, with pipx installed as above:
 ```console
-mtgcss path_to_cardlist output.csv
+mtgss path_to_cardlist output.csv
 ```
 

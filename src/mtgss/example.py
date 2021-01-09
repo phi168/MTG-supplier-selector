@@ -6,8 +6,8 @@ Created on Sun Jan  3 12:09:24 2021
 @author: Thore
 Generic algorithms
 """
-from tools.optimisation import GeneticAlgorithm as ga
-import tools.tools as t
+from mtgss.optimisation import GeneticAlgorithm as ga
+import mtgss.tools as t
 import numpy as np
 from matplotlib import pyplot as plt
 
