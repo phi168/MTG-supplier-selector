@@ -11,8 +11,8 @@ dirname = os.path.dirname(__file__)
 filename = os.path.join(dirname,'resources','objs.pkl')
 
 ## run this to overwrite the fixtures:
-# with open('objs.pkl', 'wb') as f: 
-#     pickle.dump([all_ensembles_dict, cardlist, suppliers_allcards, fitness_list], f)
+    # with open('objs.pkl', 'wb') as f: 
+    #     pickle.dump([all_ensembles_dict, cardlist, suppliers_allcards, fitness_list], f)
 
 
 @pytest.fixture

@@ -13,7 +13,7 @@ from matplotlib import pyplot as plt
 
 if __name__ == '__main__':
     #%% Load Card Info
-    cardlist = t.get_cardlist_from_filename('resources/dec.cod')
+    cardlist = t.get_cardlist_from_filename('../../tests/resources/dec.cod')
     print('imported card list')
     suppliers_allcards = t.get_suppliers_from_cardlist(cardlist)
     print('received supplier information')

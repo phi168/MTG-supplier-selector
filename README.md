@@ -10,12 +10,9 @@ Currently only accepts cockatrice's .COD file format as input.
 ## INSTALLATION
 
 The module was written in Python 3.7.6 and is not anticipated to work in Python 2.x.
-    pip install -e <path-to-projectfolder>
-
-for easy command-line usage:
-    brew install pipx
-    pipx install mtgcss
-    
+```console
+pip install -e <path-to-projectfolder>
+```
 
 ## USAGE
 
@@ -31,9 +28,3 @@ In commandline (navigate to src/mtgss/):
 ```console
 python mtgss.py path_to_cardlist output.csv
 ```
-    
-Or, with pipx installed as above:
-```console
-mtgss path_to_cardlist output.csv
-```
-
