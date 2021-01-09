@@ -9,7 +9,7 @@ __version__= "0.0.1"
 
 
 def readme():
-    with open('README.rst', encoding="UTF-8") as f:
+    with open('README.md', encoding="UTF-8") as f:
         return f.read()
 
 

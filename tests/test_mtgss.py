@@ -45,9 +45,9 @@ def test_cardlist_import(cardlist):
     filename = os.path.join(dirname,'resources','dec.cod')
     assert(len(cardlist) == len(t.get_cardlist_from_filename(filename)))
     
-def test_webscrape(cardlist, suppliers_allcards):
-    """test that correct number of cards a scraped of the web"""
-    assert(len(suppliers_allcards) == len(t.get_suppliers_from_cardlist(cardlist)))
+# def test_webscrape(cardlist, suppliers_allcards):
+#     """test that correct number of cards a scraped of the web"""
+#     assert(len(suppliers_allcards) == len(t.get_suppliers_from_cardlist(cardlist)))
     
 def test_findallcombinatoins(cardlist, suppliers_allcards, all_ensembles_dict):
     """test functionality to derive relevant supplier combinations"""

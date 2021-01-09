@@ -1,7 +1,10 @@
 # MTGSS
 
-Magic the gathering supplier selector
-Currently, the tool identifies sellers of magic cards on lilianamarket.co.uk as well as magicmadhouse.co.uk and identifies a low-cost combination of of whom to buy the cards in order to minimise (card_cost + shipping_cost). In the current version, minimisation is done stochastically over all possible combinations using a genetic algorithm. 
+Magic the gathering supplier selector.
+
+Currently, the tool identifies sellers of magic cards on lilianamarket.co.uk as well as magicmadhouse.co.uk and identifies a low-cost combination of of whom to buy the cards in order to minimise (card_cost + shipping_cost). 
+In the current version, minimisation is done stochastically over all possible combinations using a genetic algorithm. 
+Currently only accepts cockatrice's .COD file format as input. 
 
 
 ## INSTALLATION
@@ -18,10 +21,10 @@ for easy command-line usage:
 
 In python: 
 ```python
-    import mtgss 
-    model = mtgss.SupplierSelector(path_to_cardlist)
-    model.run()
-    model.print_results(path_out)
+import mtgss 
+model = mtgss.SupplierSelector(path_to_cardlist)
+model.run()
+model.print_results(path_out)
 ```
 
 In commandline (navigate to src/mtgss/):
@@ -31,6 +34,6 @@ python mtgss.py path_to_cardlist output.csv
     
 Or, with pipx installed as above:
 ```console
-    mtgcss path_to_cardlist output.csv
+mtgcss path_to_cardlist output.csv
 ```
 
