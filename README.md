@@ -9,12 +9,26 @@ INSTALLATION
 ############
 
 The module was written in Python 3.7.6 and is not anticipated to work in Python 2.x.
+    pip install -e <path-to-projectfolder>
 
+for easy command-line usage:
+    brew install pipx
+    pipx install mtgcss
+    
 
 USAGE
 #####
 
-In command-line: 
-.. code:: bash
-    >>> python mtgss.py path_to_cardlist output.csv
+In python: 
+    import mtgss 
+    model = mtgss.SupplierSelector(path_to_cardlist)
+    model.run()
+    model.print_results(path_out)
+    
+In commandline (navigate to src/mtgss/):
+    python mtgss.py path_to_cardlist output.csv
+    
+Or, with pipx installed as above:
+    mtgcss path_to_cardlist output.csv
+    
 
